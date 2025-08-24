@@ -14,24 +14,22 @@ private:
     string Major;
 
 public:
-    // Constructor mặc định
+   
     Intern();
 
-    // Constructor có tham số
     Intern(int Id, string Name, string Email, string Major);
 
-    // Getter
+   
     int getId();
     string getName();
     string getEmail();
     string getMajor();
 
-    // Setter
+  
     void setName(const string &Name);
     void setEmail(const string &Email);
     void setMajor(const string &Major);
 
-    // Hiển thị thông tin
     void display();
 };
 
